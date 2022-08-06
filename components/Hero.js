@@ -33,7 +33,8 @@ export default function Hero() {
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a
-                href="#"
+                target="_blank"
+                href="https://metaverse-mu-blush.vercel.app/"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md bg-[#F24535] text-white font-medium hover:bg-[#EA3323]"
               >
                 Launch App
@@ -71,7 +72,8 @@ export default function Hero() {
               <div className="pt-5 pb-6">
                 <div className="mt-6 px-5">
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://metaverse-mu-blush.vercel.app/"
                     className="block text-center w-full py-3 px-4 rounded-md shadow bg-[#F24535] text-white font-medium hover:bg-[#EA3323]"
                   >
                     Launch App
@@ -101,12 +103,13 @@ export default function Hero() {
                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div className="sm:flex">
                         <div className="mt-3 sm:mt-0 sm:ml-3">
-                          <button
-                            type="submit"
+                          <a
+                            target="_blank"
+                            href="https://metaverse-mu-blush.vercel.app/"
                             className="block w-full py-3 px-4 rounded-md shadow bg-[#F24535] text-white font-medium hover:bg-[#EA3323] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#EA3323] focus:ring-offset-gray-900"
                           >
                             Launch App
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </form>
